@@ -5,12 +5,11 @@
 
 **Problem:** Scrap a website that uses form processing
 
-**Solution:** Use selenium.  See example below
-(Selenium-Python documentation: https://selenium-python.readthedocs.org/)
-
-"""
+**Solution:** Use selenium.  See example below (Selenium-Python documentation: https://selenium-python.readthedocs.org/)
+--
 Access a web page using selenium browser driver
-"""
+--
+
 from selenium import webdriver
 
 browserDriver = webdriver.Firefox()
