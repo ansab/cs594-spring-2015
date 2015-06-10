@@ -1,11 +1,11 @@
 # Water Consumption & Precipitation
 
-****Data Science Question:****	How rainfall affects water consumption in Southern California metropolitan cities.
-****Conclusion:****	There is no corelation between water consumption and precipitation.
+**Data Science Question:**	How rainfall affects water consumption in Southern California metropolitan cities.
+**Conclusion:**	There is no corelation between water consumption and precipitation.
 --
 **Problem:** Scrap a website that uses form processing
 **Solution:** Use selenium.  See example below. [Selenium-Python documentation](https://selenium-python.readthedocs.org/)
-
+```
 *Access a web page using selenium browser driver
 
   from selenium import webdriver
@@ -63,12 +63,14 @@
 *Close the browser
 
   browserDriver.close()
+```
 
 --
 
 **Problem:** Clustering Data
 **Solution:** Use Sci-kit(K-means) and SciPy(NumPy and Matplotlib).  [See example below](http://pythonprogramming.net/flat-clustering-machine-learning-python-scikit-learn/)
 
+```
   import numpy as np
   import matplotlib.pyplot as plt
   from sklearn.cluster import KMeans
@@ -99,14 +101,16 @@
       plt.plot(X[i][0], X[i][1], colors[labels[i]], markersize = 10)
   plt.scatter(centroids[:, 0],centroids[:, 1], marker = "x", s=150, linewidths = 5, zorder = 10)
   plt.show()
+```
 
 --
 
 **Problem:** Compute corelation
 **Solution:** Use NumPy.  See example below
-
+```
   import numpy as np
 
   dataX = [1, 2, 3]
   dataY = [4, 5, 6]
   np.corrcoef(dataX, dataY)
+```
