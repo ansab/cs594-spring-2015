@@ -1,7 +1,7 @@
 # Water Consumption & Precipitation
 --
 **Data Science Question:**	How rainfall affects water consumption in Southern California metropolitan cities
-**Conclusion:**	There is no corelation between water consumption and precipitation
+Conclusion:	There is no corelation between water consumption and precipitation
 --
 **Problem:** Scrap a website that uses form processing
 **Solution:** Use selenium.  See example below. [Selenium-Python documentation](https://selenium-python.readthedocs.org/)
